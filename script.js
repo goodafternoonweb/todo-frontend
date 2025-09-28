@@ -1,5 +1,5 @@
 // ⚠️ Replace this with your actual Render backend URL
-const API_URL = " https://todo-backend-1-kgt4.onrender.com";
+const API_URL = " https://todo-backend-2-l6c1.onrender.com";
 
 function loadTasks() {
   fetch(`${API_URL}/tasks`)
@@ -55,4 +55,5 @@ function deleteTask(id, li) {
 }
 
 window.onload = loadTasks;
+
 
